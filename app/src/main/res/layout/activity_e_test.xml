@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".e_test"
+    android:orientation="vertical"
+    >
+    <ImageButton
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15sp"
+        android:src="@drawable/bocina"
+        android:background="@drawable/button_style"
+        android:id="@+id/ibe"
+        android:onClick="indicacionese"
+        />
+    <LinearLayout
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="170sp"
+        >
+        <ImageButton
+            android:onClick="escalera"
+            android:id="@+id/ibescalera"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10sp"
+            android:background="@drawable/button_style"
+            android:src="@drawable/escalera"/>
+        <ImageButton
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40sp"
+            android:background="@drawable/button_style"
+            android:src="@drawable/abejaicon"
+            android:onClick="error"
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="170sp"
+        >
+        <ImageButton
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10sp"
+            android:background="@drawable/button_style"
+            android:src="@drawable/perro"
+            android:onClick="error"
+
+            />
+        <ImageButton
+            android:onClick="estrella"
+            android:id="@+id/ibestrella"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40sp"
+            android:background="@drawable/button_style"
+            android:src="@drawable/estrellaicon"
+            />
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".u_test">
+    <ImageButton
+        android:onClick="indicacionesu"
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15sp"
+        android:src="@drawable/bocina"
+        android:background="@drawable/button_style"
+        />
+    <LinearLayout
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="170sp"
+        >
+
+        <ImageButton
+
+            android:id="@+id/ibuno"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10sp"
+            android:background="@drawable/button_style"
+            android:onClick="unometod"
+            android:src="@drawable/uno" />
+
+        <ImageButton
+            android:id="@+id/abejau"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40sp"
+            android:background="@drawable/button_style"
+            android:onClick="erroru"
+            android:src="@drawable/abejaicon" />
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="170sp"
+        >
+        <ImageButton
+            android:id="@+id/ibarbolu"
+            android:onClick="erroru"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10sp"
+            android:background="@drawable/button_style"
+            android:src="@drawable/arbolicon"/>
+        <ImageButton
+            android:id="@+id/ibvua"
+            android:onClick="uvametod"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40sp"
+            android:background="@drawable/button_style"
+            android:src="@drawable/uva"
+            />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">VocalesApp</string>
+    <string name="title_activity_vocal">VocalA</string>
+    <string name="title_activity_vocal_e">VocalE</string>
+    <string name="title_activity_vocali">Vocali</string>
+    <string name="title_activity_vocal_o">VocalO</string>
+    <string name="title_activity_vocal_u">VocalU</string>
+    <string name="title_activity_a_test">a_test</string>
+    <string name="title_activity_e_test">e_test</string>
+    <string name="title_activity_i_test">i_test</string>
+    <string name="title_activity_o_test">o_test</string>
+    <string name="title_activity_u_test">u_test</string>
+</resources>

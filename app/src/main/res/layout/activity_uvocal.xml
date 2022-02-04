@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VocalU"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+
+    <ImageButton
+        android:id="@+id/vocaluIMG"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="40dp"
+        android:scaleType="fitCenter"
+        android:background="@android:color/transparent"
+        app:srcCompat="@drawable/vocalu" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="160dp"
+        >
+
+        <ImageButton
+            android:id="@+id/unoIMG"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center_vertical"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="40dp"
+            app:srcCompat="@drawable/uno" />
+
+        <ImageButton
+            android:id="@+id/universoIMG"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="40dp"
+            app:srcCompat="@drawable/universo" />
+
+        <ImageButton
+            android:id="@+id/uvasIMG"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/uvas" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="55dp">
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <ImageButton
+            android:id="@+id/menuIMG"
+            android:layout_width="55dp"
+            android:layout_height="match_parent"
+            android:layout_marginRight="200dp"
+            android:background="@android:color/transparent"
+            android:onClick="goToMenu"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/menu" />
+        <ImageButton
+            android:id="@+id/atrasIMG"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/atras"
+            android:onClick="goToAtras"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

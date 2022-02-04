@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".a_test"
+    android:orientation="vertical"
+
+    >
+
+    <ImageButton
+        android:id="@+id/iba"
+        android:layout_width="200sp"
+        android:layout_height="100sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15sp"
+        android:src="@drawable/bocina"
+        android:background="@drawable/button_style"
+        android:onClick="indicacionea"
+        />
+    <LinearLayout
+        android:layout_marginTop="30sp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="170sp"
+        >
+        <ImageButton
+            android:id="@+id/ibperro"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10sp"
+            android:background="@drawable/button_style"
+            android:onClick="errormain"
+            android:src="@drawable/perro"/>
+        <ImageButton
+            android:id="@+id/ibabeja"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40sp"
+            android:background="@drawable/button_style"
+            android:onClick="abeja"
+            android:src="@drawable/abejaicon"/>
+
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="170sp"
+        >
+        <ImageButton
+            android:id="@+id/ibarbol"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="10sp"
+            android:background="@drawable/button_style"
+            android:src="@drawable/arbolicon"
+            android:onClick="arbol"
+            />
+
+        <ImageButton
+            android:id="@+id/ibhotel"
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="40sp"
+            android:background="@drawable/button_style"
+            android:src="@drawable/hotelicon"
+            android:onClick="errormain"
+            />
+    </LinearLayout>
+
+</LinearLayout>
